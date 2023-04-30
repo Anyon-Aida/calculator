@@ -1,0 +1,16 @@
+Kérdés:
+Kérlek, írd össze, hogy mit változtatnál a fentiekhez képest, 
+ha egy skálázható, több szerveres környezetben kellene üzemeltetni a kódot, 
+akár több ezer felhasználóval.
+
+Válasz: 
+Ha több szerveren szeretnénk futtatni az alkalmazást, 
+akkor ajánlott lehet használni egy Load Balancer-t, 
+ami feladata, hogy elosztja a kéréseket az egyes szerverek között. 
+Ennek a megvalósítására például használhatjuk a Kubernetes-t vagy 
+az AWS Elastic Load Balancer-t.
+
+Emellett az alkalmazást ajánlott lehet felhőszolgáltatásban futtatni, 
+mint például az AWS, Google Cloud vagy Azure. Ezek a szolgáltatók lehetővé teszik, 
+hogy az alkalmazásunkat számos szerveren futtassuk, és automatikusan skálázzák 
+azt a terhelés alapján.
